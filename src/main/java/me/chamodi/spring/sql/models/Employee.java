@@ -26,4 +26,39 @@ public class Employee extends Person{
 
     }
 
+    public Employee(String empNo, double salary, Department department, List<Project> project) {
+        this.empNo = empNo;
+        this.salary = salary;
+        this.department = department;
+        this.project = project;
+    }
+
+    public String getEmpNo() {
+        return empNo;
+    }
+
+    public void setEmpNo(String empNo) {
+        this.empNo = empNo;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
+    public void setProject(List<Project> project) {
+        this.project = project;
+    }
+
 }
